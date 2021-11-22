@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <form method= "POST" target= "_blank" action="Ejercicio3.php">
+        <fieldset>
+        <legend><h2>Ejercicio Arrays</h2></legend>
+        <fieldset>
+            <legend><h3>Inicialización del Array</h3></legend>
+            <label><strong>Entrada 1:</strong></label>
+            <input name="entradas[en1]" type="text"></br>
+            <label><strong>Entrada 2:</strong></label>
+            <input name="entradas[en2]" type="text"></br>
+            <label><strong>Entrada 3:</strong></label>
+            <input name="entradas[en3]" type="text"></br>
+            <label><strong>Entrada 4:</strong></label>
+            <input name="entradas[en4]" type="text"></br>
+            <label><strong>Entrada 5:</strong></label>
+            <input name="entradas[en5]" type="text"></br>
+        </fieldset>
+        <fieldset id = "field2">
+            <legend><h3>Herramientas</h3></legend>
+                <label><strong>Selección</strong></label></br>
+                <select name="opciones">
+                    <option value="">---Selecciona una opción---</option>
+                    <option value="primero">Quitar el primer elemento del array</option>
+                    <option value="ultimo">Quitar el último elemento del array</option>
+                    <option value="Ordenar">Ordena el array por us claves en orden inverso</option>
+                    <option value="divide">Divide el array en 2 fragmentos</option>
+                </select>
+            </fieldset>
+        </br>
+            <input id = "boton" name="" type="reset" value="Borrar">
+            <input id = "boton" name="" type="submit" value="Resolver"></br>
+        </fieldset>
+        </form>  
+</body>
+</html>
