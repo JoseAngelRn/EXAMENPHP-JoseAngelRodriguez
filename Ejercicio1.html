@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <form method= "POST" target= "_blank" action=".php">
+        <fieldset>
+        <legend><h2>Conversor de números</h2></legend>
+            <label><strong>Opción 1: Número concreto</strong></label><br>
+                <label>Número:</label>
+                <input name="Numero" type="text" placeholder="0" required></br>
+                <label><strong>Opción 2: Número aleatorio Nota: El rango de numero ees de 0 a 2048</strong></label><br>
+                <input name="opcion2" type="radio">Si</input>
+                <input name="opcion2" type="radio">No</input>
+            </br>    
+                <label><strong>Seleccione una conversión</strong></label></br>
+                <select name="operacion">
+                    <option value="">---Selecciona una opción---</option>
+                    <option value="decbin">Dec a Bin</option>
+                    <option value="decoct">Dec a Oct</option>
+                    <option value="dechex">Dec a Hex</option>
+                    <option value="bindec">Bin a Dec</option>
+                    <option value="octdec">Oct a Dec</option>
+                    <option value="hexdec">Hex a Dec</option>
+                </select>
+                </br>
+                </fieldset>
+                <input name="" type="reset" value="Restablecer valores">
+                <input name="" type="submit" value="Realizar conversión">
+        </form>
+</body>
+</html>
