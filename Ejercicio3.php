@@ -22,13 +22,12 @@ function ultimo($entradas){
 }
 #Función ordenar
 function Ordenar($entradas){
-    $res = array_flip($entradas);
+    $res = krsort($entradas);
         print_r($entradas);
 }
 #divir array
 function divide($entradas){
-    $res = array_chunk($entradas, 2);
-    print_r($entradas);
+    print_r(array_chunk($entradas,2));
 }
 
 #SELECTOR
